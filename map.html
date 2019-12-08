@@ -1,0 +1,438 @@
+﻿<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="x-apple-disable-message-reformatting">
+<!--[if !mso]><!-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--<![endif]-->
+<!--[if gte mso 9]><xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<title>Stay connected in 140+ countries and destinations.</title> <!-- please also duplicate the preheader copy and place inside title tag -->
+
+<style type="text/css">
+body { 
+  width:100% !important;
+  min-width:100%;
+  height:100% !important;
+  Margin: 0; /* keep capitalized to deal with Outlook */
+  padding: 0;
+  background-color:#ffffff;
+  -webkit-font-smoothing: antialiased; 
+}
+img { 
+  border: 0; 
+}
+table { 
+  mso-table-lspace: 0pt; 
+  mso-table-rspace: 0pt; 
+  border-collapse: collapse !important; 
+  border-spacing:0;
+}
+p {
+  margin: 0; 
+  -webkit-font-smoothing:antialiased;
+}
+body, table, td, a { 
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing:antialiased;
+}
+a[x-apple-data-detectors] { 
+  color: inherit !important; 
+  text-decoration: none !important; 
+  font-size: inherit !important; 
+  font-family: inherit !important; 
+  font-weight: inherit !important; 
+  line-height: inherit !important; 
+}
+span.MsoHyperlink { mso-style-priority: 99; color: inherit; }
+span.MsoHyperlinkFollowed { mso-style-priority: 99; color: inherit; }  
+.phonefix, .phonefix a,.phonefix span a,.phonefix span {color:#4c4c4c !important; text-decoration: none;}
+.phonefix2, .phonefix2 a,.phonefix2 span a,.phonefix2 span{color:#000000 !important; text-decoration: none;}
+
+.emailfix, .emailfix a {
+    text-decoration: none !important;
+    color: #e10074 !important;
+}
+
+/* Fallback map styles */
+.map-wrapper { display: none; }
+
+/* Media queries for styles and maps - 360px width */
+@media only screen and (max-width: 599px) {
+  .container { width: 100% !important; min-width:320px !important; max-width:360px !important; } /* fixed wrapper - 360px */
+  .view-online { width: 90% !important; padding-left: 5% !important; padding-right: 5% !important;}
+  .hide {display: none !important;}
+  .img-fluid { width: 100% !important; }
+  .img-logo { width: 130px !important; }
+  .fluid-padding {padding-left: 5% !important; padding-right: 5% !important;}
+  .lockup {padding-left: 100px !important; padding-top: 4px !important; }
+
+  .map-slide {
+    height: 270px !important;
+    background-size: 540px 270px !important;
+  }
+  .buttons a img {
+    width: 54px !important; 
+  }
+
+  .map-fallback-wrapper { background-size: 360px auto; }
+  .img-map-col1 { width: 126px !important; }
+  .img-map-col2 { width: 118px !important; }
+  .img-map-col3 { width: 116px !important; }
+
+  .lockup-img { width: 43% !important; }
+  .lockup-cell { padding: 18px 0 !important; }
+}
+
+/* Media queries for maps - 320px width */
+@media only screen and (max-width: 359px) {
+  .container { width: 100% !important; min-width:320px !important; max-width:320px !important; } /* fixed wrapper - 320px */
+  .map-fallback-wrapper { background-size: 320px auto; }
+  .img-map-col1 { width: 105px !important; }
+  .img-map-col2 { width: 98px !important; }
+  .img-map-col3 { width: 97px !important; }
+
+  .map-slide {
+    height: 240px !important;
+    background-size: 480px 240px !important; /**/
+  }
+  .buttons a img {
+    width: 48px !important; 
+  }
+}
+
+/* Media query for scrolling map */
+@media only screen and (-webkit-min-device-pixel-ratio: 0) {
+
+@keyframes map {
+  from { margin-left: 0; }
+  to { margin-left: -150%; }
+}
+
+#master-control:checked + div + .map-fallback-wrapper { display: none; }
+
+#master-control:checked + .map-wrapper {
+  display: block;
+  max-height: none !important;
+  max-width: none !important;
+  overflow: hidden;
+  width: 100% !important;
+  height: 100% !important;
+  /* overflow-x: scroll; */
+}
+  .map {
+    width: 300%;
+    animation: map 10s linear infinite;
+  }
+    .map-slide {
+      float: left;
+      display: inline-block;
+      position: relative;
+      width: 50%;
+      height: 450px;
+      background: url(https://tmoassets.blob.core.windows.net/00000-prototypes/map_scrolling.gif) no-repeat center top;
+      background-size: 900px 450px;
+    }
+.buttons {
+  position: relative;
+  width: 200%;
+  z-index: 2;
+}
+  .buttons a {
+    display: block;
+    position: relative;
+    width: 5%;
+  }
+    #na-button { 
+      margin-left: 7%;
+      margin-top: 8%;
+    }
+    #europe-button {
+      margin-left: 24%;
+      margin-top: -6%;
+    }
+    #asia-button {
+      left: 38%;
+      margin-top: -3%;
+    }
+    #sa-button { 
+      left: 13%;
+      margin-top: 3%;
+    }
+    #africa-button {
+      left: 26%;
+      margin-top: -6%;
+    }
+/* end mobile devices */
+}
+</style>
+</head>
+
+<body>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+    <td align="center" style="background-color:#ffffff;">
+
+      <!-- wrapper table -->
+      <table class="container" role="presentation" style="text-align:left;width:600px;min-width:600px;margin:0 auto;padding:0;" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tr>
+          <td align="left" style="background-color:#ffffff;">
+
+            <!-- preheader -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+              <tr>
+                <td align="left" style="padding:10px 30px;font-family:Arial,sans-serif;font-size:11px;line-height:11px;color:#4c4c4c;" class="hide">
+                  Stay connected in 140+ countries and destinations.
+                </td>
+                <td align="right" style="padding:10px 30px 10px 5%;font-family:Arial,sans-serif;font-size:11px;line-height:11px;color:#4c4c4c;" class="view-online">
+                  <a href="~PROBE(0)~" target="_blank" style="color:#4c4c4c;text-decoration:none;">View online &#10095;</a>
+                </td>
+              </tr>
+            </table>
+            <!-- end preheader -->
+
+            <!-- top bar - magenta -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+              <tr>
+                <td width="50%" align="left" style="background-color:#e20074; padding-left:30px; padding-top: 3px !important; padding-bottom: 3px !important;" class="fluid-padding">
+                  <a href="https://www.t-mobile.com" target="_blank">
+                    <img src="img/tmobile_logo_magenta.png" width="160" alt="T-Mobile" border="0" style="display:block;" class="img-logo" />
+                  </a>
+                </td>
+              </tr>
+            </table>
+            <!-- end top bar - magenta -->
+
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td style="background-color:#000000;">
+
+                  <!-- headline image -->
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td align="left" style="background-color:#000000;">
+                        <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/map_headline.gif" width="600" alt="Unlimited Adventure &#124; Tap to explore" border="0" style="display:block;" class="img-fluid" />
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end headline image -->
+
+                  <!-- map -->
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td align="left" width="100%" style="background-color:#000000;">
+
+                        <!-- checkbox to hide scrolling map in Outlook app -->
+                        <input checked="checked" type="checkbox" id="master-control" name="master-control" style="display: none!important; max-height: 0 !important; visibility: hidden !important;padding:0 0 0 0 !important;margin:0 0 0 0 !important;font-size:0 !important;width:0 !important;height:0 !important;float:left !important;position: absolute;top:-9999px;" />
+
+                        <!-- scrolling map -->
+                        <div class="map-wrapper" style="max-height:0;max-width:0;">
+                          <div class="map">
+
+                            <!-- inline bg image style for Android native -->
+                            <div class="map-slide" style="background-image: url(https://tmoassets.blob.core.windows.net/00000-prototypes/map_scrolling.gif); background-size: 900px 450px;">
+                              <div class="buttons">
+                                <a id="na-button" href="http://www.t-mobile.com">
+                                  <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/play_button.png" width="100%" alt="North America" border="0" style="display:block;" />
+                                </a>
+                                <a id="europe-button" href="http://www.t-mobile.com">
+                                  <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/play_button.png" width="100%" alt="Europe" border="0" style="display:block;" />
+                                </a>
+                                <a id="asia-button" href="http://www.t-mobile.com">
+                                  <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/play_button.png" width="100%" alt="Asia" border="0" style="display:block;" />
+                                </a>
+                                <a id="sa-button" href="http://www.t-mobile.com">
+                                  <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/play_button.png" width="100%" alt="South America" border="0" style="display:block;" />
+                                </a>
+                                <a id="africa-button" href="http://www.t-mobile.com">
+                                  <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/play_button.png" width="100%" alt="Africa" border="0" style="display:block;" />
+                                </a>
+                              </div>
+                            </div><div class="map-slide" style="background-image: url(https://tmoassets.blob.core.windows.net/00000-prototypes/map_scrolling.gif); background-size: 900px 450px;">
+                              <div class="buttons">
+                                <a id="na-button" href="http://www.t-mobile.com">
+                                  <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/play_button.png" width="100%" alt="North America" border="0" style="display:block;" />
+                                </a>
+                                <a id="europe-button" href="http://www.t-mobile.com">
+                                  <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/play_button.png" width="100%" alt="Europe" border="0" style="display:block;" />
+                                </a>
+                                <a id="asia-button" href="http://www.t-mobile.com">
+                                  <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/play_button.png" width="100%" alt="Asia" border="0" style="display:block;" />
+                                </a>
+                                <a id="sa-button" href="http://www.t-mobile.com">
+                                  <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/play_button.png" width="100%" alt="South America" border="0" style="display:block;" />
+                                </a>
+                                <a id="africa-button" href="http://www.t-mobile.com">
+                                  <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/play_button.png" width="100%" alt="Africa" border="0" style="display:block;" />
+                                </a>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                        <!-- end scrolling map -->
+
+                        <!-- fallback map -->
+                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="map-fallback-wrapper">
+                          <tr>
+                            <td>
+
+                              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                  <td>
+                                    <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/map_static_1.gif" width="600" alt="" border="0" style="display:block;" class="img-fluid" />
+                                  </td>
+                                </tr>
+                              </table>
+                              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                  <td>
+                                    <a href="http://www.t-mobile.com" target="_blank">
+                                      <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/map_static_2.gif" width="211" alt="North America" border="0" style="display:block;" class="img-map-col1" />
+                                    </a>
+                                  </td>
+                                  <td>
+                                    <a href="http://www.t-mobile.com" target="_blank">
+                                      <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/map_static_3.gif" width="195" alt="Europe" border="0" style="display:block;" class="img-map-col2" />
+                                    </a>
+                                  </td>
+                                  <td>
+                                    <a href="http://www.t-mobile.com" target="_blank">
+                                      <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/map_static_4.gif" width="194" alt="Asia" border="0" style="display:block;" class="img-map-col3" />
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                  <td>
+                                    <a href="http://www.t-mobile.com" target="_blank">
+                                      <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/map_static_5.gif" width="211" alt="South America" border="0" style="display:block;" class="img-map-col1" />
+                                    </a>
+                                  </td>
+                                  <td>
+                                    <a href="http://www.t-mobile.com" target="_blank">
+                                      <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/map_static_6.gif" width="195" alt="Africa" border="0" style="display:block;" class="img-map-col2" />
+                                    </a>
+                                  </td>
+                                  <td>
+                                    <a href="http://www.t-mobile.com" target="_blank">
+                                      <img src="https://tmoassets.blob.core.windows.net/00000-prototypes/map_static_7.gif" width="194" alt="" border="0" style="display:block;" class="img-map-col3" />
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- end fallback map-->
+
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end map -->
+
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td align="center" style="background-color:#000000; font-family:Arial,sans-serif;font-size:12px;line-height:16px;color:#ffffff;padding:10px 0 14px 0;">
+                        Image does not depict coverage
+                      </td>
+                    </tr>
+                  </table>
+
+                </td>
+              </tr>
+            </table>
+
+            <!-- main copy -->
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td style="padding: 25px 30px;" class="fluid-padding">
+
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td bgcolor="#ffffff" align="left" style="font-family:Arial,sans-serif;font-size:16px;line-height:21px;color:#000000;padding-bottom:20px;">
+                        Share the best of your next trip. And because you’ve got T&#8209;Mobile<span style="font-size:12px;line-height:12px;">&reg;</span>, you don’t have to wait to get home.
+                      </td>
+                    </tr>
+
+                    <!-- CTA -->
+                    <tr>
+                      <td align="center">
+                        <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                          <tr>
+                            <td align="center" width="230" style="background-color:#e20074;overflow:auto;"> <!-- set width for Outlook --> 
+                              <a href="http://www.t-mobile.com" target="_blank" style="border:1px solid #e20074;display:inline-block;padding:13px 32px;text-align:center;text-decoration:none;font-size:16px;line-height:16px;font-family:Arial, sans-serif;color:#ffffff;white-space:nowrap;">
+                                See more epic stories
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                </td>
+              </tr>
+            </table>
+            <!-- end main copy -->
+
+            <!-- lock up -->
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+              <tr>
+                <td align="center" style="background-color:#000000; padding:5px 0;">
+                  <img src="img/lockup-most-loved-black.gif" width="414" alt="America's Most Loved Wireless. &#124; T-Mobile." border="0" style="display:block;" class="img-fluid" />
+                </td>
+              </tr>
+            </table>
+            <!-- end lock up -->
+
+            <!-- legal footer -->
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td style="background-color:#e8e8e8; padding: 25px 30px;" class="fluid-padding">
+
+                  <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td style="font-family:Arial,sans-serif;font-size:11px;line-height:16px;color:#4c4c4c;" align="left">
+                        Limited time offer; subject to change. <span style="text-decoration: none !important; color:#4c4c4c !important;" class="phonefix">July 26, 2017</span>. Taxes and fees additional. Not all features available on all devices. unRadio: Service not available for BlackBerry or Windows phones; service provided by Rhapsody. Music streaming is ad-free; radio station streaming may contain radio ads the station includes. Device and screen images simulated. T&#8209;Mobile and the magenta color are registered trademarks of Deutsche Telekom AG. &copy;2018 T&#8209;Mobile USA, Inc.
+                        <br />
+                        <br />
+                        To ensure future delivery of emails, please add <a href="mailto:news@t-mobile-email.com?subject=No%20Reply&body=No%20Reply" target="_blank" style="color:#4c4c4c; text-decoration:underline;">news@t&#8209;mobile&#8209;email.com</a> to your safe sender list or address&nbsp;book.
+                        <br />
+                        <br />
+                        This email was sent to <a href="mailto:~MAIL~" style="color:#4c4c4c; text-decoration:underline;">~MAIL~</a>. If you've received this message in error, or if you prefer not to receive future promotional email messages from T&#8209;Mobile, please <a href="http://www.t-mobile.com/company/website/OptOut.aspx?type=1" target="_blank" style="color:#4c4c4c; text-decoration:underline;">unsubscribe</a>.
+                        <br />
+                        <br />
+                        T&#8209;Mobile USA, Inc., <span style="text-decoration: none !important; color:#4c4c4c !important;" class="phonefix">P.O. Box 37380, Albuquerque, NM 87176</span>
+                        <br />
+                        <br />
+                        T&#8209;Mobile respects your privacy. To review our Privacy Policy, <a href="https://www.t-mobile.com/responsibility/privacy/privacy-policy?cmpid=CRM_EM_EMAIL_9D69FUWX8Y1IEE0PH47400" target="_blank" style="color:#4c4c4c; text-decoration:underline;">click&nbsp;here</a>.
+                      </td>
+                    </tr>
+                  </table>
+
+                </td>
+              </tr>
+            </table>
+            <!-- end legal footer -->
+
+          </td>
+        </tr>
+      </table>
+      <!-- end wrapper table -->
+
+    </td>
+	</tr>
+</table>
+</body>
+</html>
